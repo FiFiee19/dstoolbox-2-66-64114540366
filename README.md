@@ -37,4 +37,12 @@ private project for ds toolbox class
 [การเขียนเอกสารบน Github]
 (https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-- 
+- github.com/cookiecutter/cookiecutter-django
+
+
+        venv\Scripts\activate
+        pip install django pre-commit
+        pip install cookiecutter
+        cookiecutter gh:cookiecutter/cookiecutter-django
+
+drf = django rest framework
