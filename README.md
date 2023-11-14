@@ -5,21 +5,21 @@ private project for ds toolbox class
 
 - ติดตั้ง scoop.sh
 
-- ติดตั้ง github-cli
+ติดตั้ง github-cli
 
     scopp install git   
-    #scoop bucket add main
+    scoop bucket add main
     scoop install gh
 
-- สร้างสภาพแวดล้อมใหม่
+สร้างสภาพแวดล้อมใหม่
 
     python -m venv venv
     ..\venv\Scripts\activate
 
-- ติดตั้ง package
+ติดตั้ง package
 
     pip install django
-    
+
 ## 14/11/2566
 -สร้าง github resposity ของตัวเอง
 
